@@ -19,6 +19,6 @@
     --secondary: var(--purple);
 }
 
-* {
-    font-family: 'Roboto', sans-serif;
+html {
+    font-family: 'Inter', sans-serif;
 }
