@@ -15,5 +15,18 @@
 }
 
 .accordion__summary {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+}
 
+.accordion__toggler {
+    width: 16px;
+    height: 8px;
+    margin-right: -16px;
+}
+
+.accordion[open] .accordion__toggler {
+    rotate: 180deg;
 }
