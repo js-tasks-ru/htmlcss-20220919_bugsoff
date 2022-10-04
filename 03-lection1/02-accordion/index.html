@@ -16,14 +16,36 @@
         </style>
     </head>
     <body>
-        <details class="accordion">
-            <summary class="accordion__summary">
-                Flexbox vs. CSS Grid
-                <img src="./arrow.svg" alt="значок переключателя, раскрывающего подробности" class="accordion__toggler">
-            </summary>
-                <p>When I first started programming, I only knew how to use flexbox. So naturally, I only used flexbox. By no means did I think that flexbox was any better or any worse than CSS grid, I just never learned how to use it properly.</p>
-                <p>Once I started to get more responsibilities at my job, I realized that maybe flexbox wasn’t always the go-to answer for every project. It was getting in the way with the different layouts that I was building and it was causing more trouble than it was worth.</p>
-                <p>In this article, I’m going to lay out the differences between the flexbox and CSS grid. Then, I will discuss when the best use case for each is.</p>
-        </details>
+        <section class="accordion">
+            <details class="accordion__item">
+                <summary class="accordion__summary">
+                    Flexbox vs. CSS Grid (1)
+                    <img src="./arrow.svg" alt="значок переключателя, раскрывающего подробности" class="accordion__toggler">
+                </summary>
+                    <p>When I first started programming, I only knew how to use flexbox. So naturally, I only used flexbox. By no means did I think that flexbox was any better or any worse than CSS grid, I just never learned how to use it properly.</p>
+                    <p>Once I started to get more responsibilities at my job, I realized that maybe flexbox wasn’t always the go-to answer for every project. It was getting in the way with the different layouts that I was building and it was causing more trouble than it was worth.</p>
+                    <p>In this article, I’m going to lay out the differences between the flexbox and CSS grid. Then, I will discuss when the best use case for each is.</p>
+            </details>
+            
+            <details class="accordion__item">
+                <summary class="accordion__summary">
+                    Flexbox vs. CSS Grid (2)
+                    <img src="./arrow.svg" alt="значок переключателя, раскрывающего подробности" class="accordion__toggler">
+                </summary>
+                <p><strong>Flexbox</strong></p>
+                <p>Flexbox is one-dimensional, meaning that you can really only design your page in one direction or the other. It’s not designed to support both rows and columns at the same time.</p>                
+                <p>The main properties that I typically use with Flexbox are display, flex-direction,align-items, and justify-content. I suggest checking out the MDN Web Docs for more information on all of the other properties that Flexbox supports.</p>
+            </details>
+
+            <details class="accordion__item">
+                <summary class="accordion__summary">
+                    Flexbox vs. CSS Grid (3)
+                    <img src="./arrow.svg" alt="значок переключателя, раскрывающего подробности" class="accordion__toggler">
+                </summary>
+                <p><strong>Grid</strong></p>
+                <p>CSS Grid is two-dimensional, meaning that it’s great for diving up your webpage into several different regions. As long as you know what you are doing and what you want, you have full control of how to set up your webpage.</p>
+                <p>As an example, the image below displays how a website can be divided up into six grid areas. Each section can vary by width, height, position, and they can even overlap.</p>
+            </details>
+        </section>
     </body>
 </html>

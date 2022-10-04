@@ -1,8 +1,5 @@
 /* Стилизация аккордеона */
-.accordion summary::marker {
-    content: none;
-}
-.accordion {
+.accordion__item {
     font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
@@ -12,6 +9,14 @@
     border-radius: 8px;
     width: 730px;
     padding: 24px 48px 24px 32px;
+}
+
+.accordion__item:not(:first-child) {
+    margin-top: 8px;
+}
+
+.accordion__summary::marker {
+    content: none;
 }
 
 .accordion__summary {
