@@ -1,0 +1,28 @@
+.cards-container {
+    display: flex;
+    flex-flow: row wrap;
+    gap: 30px;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 68px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column-reverse;
+    width: 350px;
+    height: 367px;
+    box-shadow: 0px 2px 4px rgba(33, 36, 41, 0.05);
+    border-radius: 12px;
+    background-color: var(--white);
+    padding: 30px;
+}
+
+.card__title {
+    font: normal 500 21px/25px 'Roboto';
+    text-align: center;
+}
+
+.card__content {
+
+}

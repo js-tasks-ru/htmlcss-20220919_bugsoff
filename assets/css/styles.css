@@ -4,6 +4,7 @@
 @import "../../components/main/main.css";
 @import "../../components/footer/footer.css";
 @import "../../components/container/container.css";
+@import "../../components/card/card.css";
 
 :root {
     --white: #ffffff;
@@ -31,6 +32,7 @@
 
 html, body {
     height: 100%;
+    box-sizing: border-box;
 }
 
 body {
@@ -38,3 +40,4 @@ body {
     display: flex;
     flex-direction: column;
 }
+
