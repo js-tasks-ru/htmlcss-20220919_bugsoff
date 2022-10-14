@@ -14,16 +14,22 @@
     --grey-2: #DDE2E5;
     --grey-3: #ACB5BD;
     --grey-4: #495057;
-
     --error: var(--red);
     --success: var(--blue);
-
     --primary: var(--blue);
     --primary-active: var(--blue-dark);
     --secondary: var(--purple);
     --secondary-active: var(--purple-dark);
 }
 
-* {
-    font-family: 'Roboto', sans-serif;
+html, body {
+    height: 100%;
 }
+
+body {
+    font-family: 'Inter', sans-serif;
+    display: flex;
+    flex-direction: column;
+    color: var(--black);
+}
+
