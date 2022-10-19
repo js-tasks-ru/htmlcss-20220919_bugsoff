@@ -8,22 +8,30 @@
     --purple-dark: #5028C6;
     --blue: #4263EB;
     --blue-dark: #2342C0;
+    --blue-light: #A0B1F533;
+    --greyblue-dark: #334D6E;
+    --greyblue-light: #90A0B7;
     --red: #F03D3E;
     --grey-0: #F9FAFC;
     --grey-1: #F8F9FA;
     --grey-2: #DDE2E5;
     --grey-3: #ACB5BD;
     --grey-4: #495057;
-
     --error: var(--red);
     --success: var(--blue);
-
     --primary: var(--blue);
     --primary-active: var(--blue-dark);
     --secondary: var(--purple);
     --secondary-active: var(--purple-dark);
 }
 
-* {
-    font-family: 'Roboto', sans-serif;
+html, body {
+    height: 100%;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    display: flex;
+    flex-direction: column;
+    color: var(--black);
 }
